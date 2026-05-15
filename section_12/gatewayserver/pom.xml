@@ -83,6 +83,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis-reactive</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-resource-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-oauth2-jose</artifactId>
+		</dependency>
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -108,7 +122,7 @@
 				<version>3.4.6</version>
 				<configuration>
 					<to>
-						<image>ranjeetdoc/${project.artifactId}:s11</image>
+						<image>ranjeetdoc/${project.artifactId}:S12</image>
 					</to>
 				</configuration>
 			</plugin>

@@ -4,7 +4,7 @@ set -e  # stop on error
 
 SERVICES=("configserver" "eurekaserver" "accounts" "loans" "cards" "gatewayserver")
 
-BASE_DIR="/Users/prerna/Desktop/Ranjeet/projects/microservices/section_11"   # change this
+BASE_DIR="/Users/prerna/Desktop/Ranjeet/projects/microservices/section_12"   # change this
 
 for SERVICE in "${SERVICES[@]}"; do
   echo "=============================="
